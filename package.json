@@ -2,15 +2,11 @@
   "name": "IntegracaoLancamentosSpaceX",
   "version": "1.0.0",
   "description": "Integra os dados dos lançamentos da SpaceX",
-  "main": "index.js",
   "author": "Rafael de Azeredo Bronzatti",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "serve": "tsnd --respawn src/index.ts",
-    "start": "node build/index.js",
-    "build": "tsc",
-    "postinstall": "npm run build"
+    "start": "tsnd --respawn src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",
